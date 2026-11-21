@@ -1,0 +1,45 @@
+/* ==========================================================================
+   DESIGN TOKENS — Blueprint §2 (palette §2.2, type §2.3, motion §2.5)
+   ========================================================================== */
+:root {
+  /* Brand palette */
+  --teal: #3A3330;        /* Brand Teal — hero + dark sections */
+  --teal-deep: #1E1A18;   /* Teal Deep — footer, depth */
+  --linen: #EDE4D6;       /* main light background */
+  --linen-2: #E0D4C1;     /* slightly deeper linen for stacked cards */
+  --ivory: #F8F4EC;       /* cards, forms, reading panels */
+  --ink: #1E1A18;         /* body text on light */
+  --clay: #7D5F45;        /* her terracotta — BUTTON FILLS / large shapes only */
+  --clay-ink: #5E452F;    /* darker clay for SMALL text on light (6.7:1) */
+  --clay-light: #D2B48C;  /* accent text/icons on Teal Deep */
+  --sand: #D9CBB5;        /* secondary text on Brand Teal */
+  --brass: #BFA27E;       /* hairlines, ornaments */
+  --teal-text: #6B6158;   /* muted text on Linen */
+
+  /* Pillar colours — decorative, always paired with a text label */
+  --soul: #C2A27C;
+  --mind: #A8A39B;
+  --body: #8B7355;
+  --career: #5E5A56;
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --t-micro: 200ms;
+  --t-reveal: 700ms;
+
+  /* Type. Two families + signature script (see README note on Montserrat) */
+  --font-head: 'Cormorant Garamond', 'Cormorant', Georgia, 'Times New Roman', serif;
+  --font-body: 'Jost', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-label: var(--font-body); /* swap to 'Montserrat' here if Arifa's brand file requires it */
+  --font-script: 'Allura', 'Pinyon Script', cursive;
+
+  /* Shape + layout */
+  --r: 20px;
+  --r-sm: 12px;
+  --max: 1240px;
+  --gutter: clamp(20px, 5vw, 56px);
+  --section: clamp(76px, 10vw, 148px);
+  --ribbon-h: 30px;
+  --nav-h: 76px;
+  --header-h: calc(var(--ribbon-h) + var(--nav-h));
+}

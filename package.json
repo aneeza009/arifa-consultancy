@@ -1,8 +1,8 @@
 {
-  "name": "arifa-homepage-demo",
-  "version": "0.2.0",
+  "name": "arifa-portfolio-demo",
+  "version": "0.4.0",
   "private": true,
   "type": "module",
-  "description": "Arifa H. homepage demo by Sorix.Co. Static HTML, CSS and vanilla JS.",
+  "description": "Arifa H portfolio website demo by Sorix.Co. Static HTML, CSS and vanilla JS.",
   "scripts": { "dev": "node serve.mjs" }
 }

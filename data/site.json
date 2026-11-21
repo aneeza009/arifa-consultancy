@@ -1,0 +1,65 @@
+{
+  "brand": {
+    "name": "RRIFZ",
+    "lockup": "RRIFZ — Transformation Life Coaching by Arifa",
+    "tagline": "The HR insider who works for your side of the desk."
+  },
+  "contact": {
+    "email": "consulting@rrifz.com",
+    "location": "Dubai, UAE",
+    "linkedin": "https://www.linkedin.com/in/arifa-h",
+    "whatsapp": null
+  },
+  "nav": [
+    { "label": "What I solve", "href": "index.html#solve" },
+    { "label": "Services", "href": "index.html#services" },
+    { "label": "How to book", "href": "index.html#how" },
+    { "label": "About", "href": "about.html" },
+    { "label": "Book", "href": "book.html" }
+  ],
+  "cta": { "label": "Book a free 20-minute call", "short": "Book a free call", "href": "book.html" },
+  "trust": [
+    { "text": "Certified HR Professional" },
+    { "text": "Certified Transformation Life Coach" },
+    { "text": "UAE Labour Law practitioner" },
+    { "text": "Special Recognition Award, Safe Line Group (Jan 2022)" }
+  ],
+  "pillars": [
+    { "id": "soul", "name": "Soul", "line": "Feeling connected to what matters most." },
+    { "id": "mind", "name": "Mind", "line": "Handling pressure and staying curious." },
+    { "id": "body", "name": "Body", "line": "Rest, movement and energy." },
+    { "id": "career", "name": "Career", "line": "Work that fits and treats you fairly." }
+  ],
+  "solve": {
+    "individuals": [
+      { "q": "I'm not sure what my rights are at work.", "a": "Clear, plain-English guidance on UAE labour law basics.", "service": "labour-law" },
+      { "q": "I feel stuck in my career or life.", "a": "One-to-one coaching for clarity and direction.", "service": "coaching" },
+      { "q": "I'm dealing with conflict or unfair treatment.", "a": "Calm, practical support for employee relations issues.", "service": "employee-relations" }
+    ],
+    "businesses": [
+      { "q": "We need HR but can't hire full-time.", "a": "A part-time HR lead embedded in your business.", "service": "fractional-hr" },
+      { "q": "Our contracts and policies aren't solid.", "a": "HR strategy, policies and compliance set up properly.", "service": "hr-consulting" },
+      { "q": "We need to handle an employee issue fairly.", "a": "Structured, fair handling of disputes and investigations.", "service": "employee-relations" }
+    ]
+  },
+  "services": [
+    { "id": "hr-consulting", "n": "01", "name": "HR Consulting", "sum": "Strategy, policies, performance management and compliance.",
+      "get": ["Policy and contract review", "Performance framework", "Compliance check"], "best": "Businesses setting up HR properly.", "format": "Video · 60 minutes" },
+    { "id": "fractional-hr", "n": "02", "name": "Fractional HR Support", "sum": "A part-time HR lead for growing companies.",
+      "get": ["HR operations cover", "Employee lifecycle support", "Management advice"], "best": "Teams without a full-time HR hire.", "format": "Remote · Monthly" },
+    { "id": "labour-law", "n": "03", "name": "UAE Labour Law and Compliance Guidance", "sum": "Contracts, employee rights, WPS and end-of-service.",
+      "note": "General information, not legal advice.",
+      "get": ["Contract walkthrough", "Rights explained", "End-of-service advice"], "best": "Employees and employers.", "format": "Video · 45 minutes" },
+    { "id": "employee-relations", "n": "04", "name": "Employee Relations", "sum": "Disputes, investigations and workplace conflict.",
+      "get": ["Case assessment", "Fair investigation", "Resolution plan"], "best": "Individuals and teams in conflict.", "format": "Video · 60 minutes" },
+    { "id": "coaching", "n": "05", "name": "Transformation Life Coaching", "sum": "One-to-one coaching for clarity, career and life direction.",
+      "note": "Coaching, not therapy.",
+      "get": ["Clear goals", "Career direction", "Action plan"], "best": "Professionals at a crossroads.", "format": "Video · 60 minutes" }
+  ],
+  "steps": [
+    { "n": "01", "t": "Choose what you need", "p": "Pick a service, or choose the free intro call if you are not sure." },
+    { "n": "02", "t": "Pick a date and time", "p": "Select a slot in Gulf Standard Time (UTC+4)." },
+    { "n": "03", "t": "Send your details", "p": "Add your name, email and a short message. Arifa replies to confirm." }
+  ],
+  "disclaimerShort": "General information and coaching, not legal advice, therapy or medical advice. For legal decisions, consult a licensed UAE legal professional or contact MOHRE directly."
+}

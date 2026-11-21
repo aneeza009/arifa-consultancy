@@ -6,7 +6,8 @@
   --paper: #FBF8F2;
   --brass: #C8A15B;
   --mist: #8A9A96;
-  --font-display: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --clay: #A5472F; /* contrast colour: terracotta */
+  --font-display: "DM Serif Display", Georgia, "Times New Roman", serif;
   --font-sans: "DM Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --line-dark: rgba(245, 241, 232, 0.15);
   --line-light: rgba(15, 42, 43, 0.15);
@@ -38,8 +39,11 @@ a { color: inherit; }
 
 /* Type */
 h1, h2, h3 { font-family: var(--font-display); font-weight: 400; }
-h1 { font-size: clamp(3rem, 7.4vw, 5.75rem); line-height: 1.0; letter-spacing: -0.015em; }
-h2 { font-size: clamp(2.375rem, 5vw, 3.75rem); line-height: 1.05; letter-spacing: -0.01em; }
+h1 { font-size: clamp(2.75rem, 6.4vw, 5.25rem); line-height: 1.06; letter-spacing: -0.012em; }
+h2 { font-size: clamp(2.125rem, 4.4vw, 3.25rem); line-height: 1.1; letter-spacing: -0.008em; }
+h1 em, h2 em { font-style: italic; }
+.cream h2 em, .paper h2 em { color: var(--clay); }
+.dark h1 em, .dark h2 em { color: var(--brass); }
 h3 { font-size: 1.75rem; line-height: 1.15; }
 .label, h4.label, .tag { font-family: var(--font-sans); font-size: 11px; line-height: 1.5; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 500; }
 h4.label { margin: 0 0 6px; }
@@ -190,7 +194,6 @@ h4.label { margin: 0 0 6px; }
 .about__grid { display: grid; gap: 48px; align-items: center; }
 .about__photo { position: relative; margin-left: calc(-1 * var(--gutter) - 22vw); width: calc(100% + var(--gutter) + 22vw); max-width: 620px; }
 .circle { position: relative; width: 100%; aspect-ratio: 1; border-radius: 50%; overflow: hidden; background: var(--paper); }
-.circle picture, .circle img { width: 100%; height: 100%; object-fit: cover; }
 .about__photo::after { content: ""; position: absolute; inset: -4% -6% -4% -4%; border: 1px solid var(--line-light); border-radius: 50%; pointer-events: none; }
 .about__text { margin-top: 24px; max-width: 30em; font-size: 1.1875rem; line-height: 1.6; }
 .facts { margin: 36px 0 40px; display: grid; gap: 0; border-top: 1px solid var(--line-light); }
@@ -232,7 +235,6 @@ h4.label { margin: 0 0 6px; }
 /* Booking and contact: big curved top edge, brass circle with the portrait */
 .booking { position: relative; padding: 112px 0 var(--section-y); border-radius: 50% 50% 0 0 / 56px 56px 0 0; }
 .booking__badge { position: absolute; top: -56px; right: -36px; width: 150px; aspect-ratio: 1; padding: 8px; border-radius: 50%; background: var(--brass); z-index: 2; }
-.booking__badge picture, .booking__badge img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; background: var(--teal); }
 .booking__grid { display: grid; gap: 56px; }
 .booking h2 { font-size: clamp(2.75rem, 6vw, 4.5rem); }
 .where { margin-top: 12px; color: var(--mist); }
@@ -288,9 +290,99 @@ select { padding-right: 44px; background-image: url("data:image/svg+xml,%3Csvg x
 /* Motion: sections fade up 16px; images ease in (opacity, scale 1.04 to 1). Nothing else moves. */
 .js [data-reveal] { opacity: 0; transform: translateY(16px); transition: opacity .6s var(--ease), transform .6s var(--ease); }
 .js [data-reveal].is-in { opacity: 1; transform: none; }
-.js [data-img] img { opacity: 0; transform: scale(1.04); transition: opacity .6s ease, transform .6s ease; }
-.js [data-img].is-in img { opacity: 1; transform: none; }
+.js .arch img { opacity: 0; transform: scale(1.06); transition: opacity .9s ease, transform 1.6s var(--ease); }
+.js .arch.is-in img { opacity: 1; transform: none; }
 @media (prefers-reduced-motion: reduce) {
-  .js [data-reveal], .js [data-img] img { opacity: 1; transform: none; transition: none; }
+  .js [data-reveal], .js .arch img { opacity: 1; transform: none; transition: none; }
   .tabpanel, .acc__panel, .acc__i::before, .acc__i::after, .xp, .slider__track, .svc-photo picture, .svc-photo img { transition: none; }
 }
+
+/* ---------- Contrast colour, motion and extras ---------- */
+
+/* Placeholders for photos Arifa still needs to supply */
+.circle--ph { background: var(--clay); color: var(--cream); display: grid; place-items: center; text-align: center; border: 0; }
+.ph-in { display: grid; gap: 14px; justify-items: center; padding: 18%; max-width: 20em; }
+.ph-t { font-family: var(--font-display); font-size: clamp(1.25rem, 2.4vw, 1.75rem); line-height: 1.2; }
+.circle--ph .tag { color: var(--cream); border-color: var(--cream); }
+.circle--ph::after { content: ""; position: absolute; inset: 6%; border: 1px solid rgba(245, 241, 232, .4); border-radius: 50%; }
+.booking__badge { display: grid; place-content: center; justify-items: center; gap: 6px; text-align: center; color: var(--midnight); font-size: 12px; line-height: 1.3; padding: 10px; animation: float 7s ease-in-out infinite; }
+.booking__badge .tag { color: var(--midnight); border-color: var(--midnight); font-size: 9px; padding: 0 6px; }
+@media (min-width: 960px) { .booking__badge { font-size: 14px; } .booking__badge .tag { font-size: 10px; } }
+
+/* Hero: staggered headline, slowly turning ring, floating clay dot */
+.hero__photo { position: relative; }
+.hero__ring { position: absolute; z-index: 0; width: 118%; aspect-ratio: 1; left: -9%; top: 4%; border: 1px dashed rgba(200, 161, 91, .55); border-radius: 50%; animation: spin 80s linear infinite; pointer-events: none; }
+.hero__dot { position: absolute; z-index: 2; width: clamp(44px, 6vw, 72px); aspect-ratio: 1; border-radius: 50%; background: var(--clay); left: 3%; bottom: 6%; animation: float 6s ease-in-out infinite; }
+.arch { position: relative; z-index: 1; }
+.w { display: inline-block; overflow: hidden; vertical-align: top; padding-bottom: .12em; margin-bottom: -.12em; }
+.w > span { display: inline-block; animation: rise .95s var(--ease) both; animation-delay: calc(var(--i) * 70ms + 120ms); }
+.js .hero .label, .js .hero .lede, .js .hero .actions, .js .hero .proof { animation: fadeup .9s var(--ease) both; }
+.js .hero .label { animation-delay: .05s; } .js .hero .lede { animation-delay: .55s; } .js .hero .actions { animation-delay: .7s; } .js .hero .proof { animation-delay: .85s; }
+@keyframes rise { from { transform: translateY(105%); } to { transform: none; } }
+@keyframes fadeup { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+
+/* Scroll progress */
+.progress { position: fixed; z-index: 70; top: 0; left: 0; right: 0; height: 3px; background: var(--brass); transform: scaleX(0); transform-origin: 0 50%; pointer-events: none; }
+
+/* Marquee of her real expertise areas (from her profile) */
+.marquee { background: var(--clay); color: var(--cream); overflow: hidden; padding-block: 22px; border-block: 1px solid rgba(245, 241, 232, .25); }
+.marquee__track { display: flex; width: max-content; animation: marquee 48s linear infinite; }
+.marquee span { flex: none; font-family: var(--font-display); font-style: italic; font-size: clamp(1.5rem, 3vw, 2.25rem); line-height: 1.2; padding-right: 3.25rem; position: relative; }
+.marquee span::after { content: ""; position: absolute; right: 1.25rem; top: 50%; width: 8px; height: 8px; margin-top: -4px; border-radius: 50%; background: var(--brass); }
+@keyframes marquee { to { transform: translateX(-50%); } }
+
+/* Solutions rows: tint on hover, arrow glides */
+.row { transition: background-color .35s; }
+@media (hover: hover) { .row:hover { background: var(--cream); } }
+.tlink .arr { display: inline-block; transition: transform .35s var(--ease); }
+.tlink:hover .arr, .row:hover .arr { transform: translateX(6px); }
+.row__q { transition: color .3s; }
+.row:hover .row__q { color: var(--clay); }
+
+/* Services: clay accent on the open row, image wipes in */
+.acc__n { transition: color .3s; }
+.is-open .acc__n { color: var(--clay); }
+.acc__btn:hover .acc__n { color: var(--clay); }
+.notsure { margin-top: 32px; padding: 28px 32px; background: var(--clay); color: var(--cream); border-radius: 24px; }
+.notsure .btn--ink { background: var(--brass); color: var(--midnight); }
+.notsure .btn--ink:hover { background: var(--brass); filter: brightness(.9); }
+@media (min-width: 960px) {
+  .svc-photo picture { opacity: 1; clip-path: inset(0 0 100% 0); transition: clip-path .9s var(--ease); }
+  .svc-photo picture.is-on { clip-path: inset(0); z-index: 1; }
+  .svc-photo img { transform: scale(1.12); transition: transform 1.4s var(--ease); }
+  .svc-photo picture.is-on img { transform: none; }
+}
+
+/* How it works: a bold clay band, lines draw in */
+#how { background: var(--clay); color: var(--cream); }
+#how h2 em { color: var(--brass); }
+#how .steps, #how .steps li { border-color: rgba(245, 241, 232, .3); }
+#how .steps__n { color: var(--brass); font-size: 2.5rem; line-height: 1; }
+#how :focus-visible { outline-color: var(--cream); }
+#how .btn--ink { background: var(--brass); color: var(--midnight); }
+#how .btn--ink:hover { background: var(--brass); filter: brightness(.9); }
+.steps { position: relative; border-top-color: transparent; }
+.steps::before { content: ""; position: absolute; top: 0; left: 0; right: 0; border-top: 1px solid rgba(245, 241, 232, .55); transform: scaleX(0); transform-origin: 0 50%; transition: transform 1.2s var(--ease) .2s; }
+.steps.is-in::before { transform: scaleX(1); }
+
+/* About parallax, kind-words quote marks */
+[data-parallax] { will-change: transform; }
+.quote::before { content: "\201C"; display: block; font-family: var(--font-display); font-size: 4.5rem; line-height: .6; height: 32px; color: var(--clay); }
+.quote blockquote p { font-size: clamp(1.375rem, 2.2vw, 1.75rem); }
+.exp__col > .label { color: var(--clay); }
+
+@media (prefers-reduced-motion: reduce) {
+  .w > span, .js .hero .label, .js .hero .lede, .js .hero .actions, .js .hero .proof { animation: none; }
+  .hero__ring, .hero__dot, .booking__badge, .marquee__track { animation: none; }
+  .steps::before { transform: none; transition: none; }
+  .progress { display: none; }
+  .svc-photo picture { transition: none; }
+}
+
+/* Fixes: brass fails contrast on clay, so numbers and emphasis use cream there */
+#how h2 em, #how .steps__n { color: var(--cream); }
+.booking__badge { padding-right: 34px; }
+@media (min-width: 960px) { .booking__badge { padding-right: 76px; } }
+@media (max-width: 959px) { .about__photo { width: 86vw; margin-left: calc(-1 * var(--gutter) - 8vw); } }
