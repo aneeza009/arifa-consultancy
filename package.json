@@ -1,13 +1,8 @@
 {
-  "name": "arifa-rrifz-demo",
-  "version": "0.1.0",
+  "name": "arifa-homepage-demo",
+  "version": "0.2.0",
   "private": true,
   "type": "module",
-  "description": "RRIFZ Transformation Life Coaching by Arifa — frontend-only demo by Sorix.Co",
-  "scripts": {
-    "dev": "node serve.mjs",
-    "test": "node --test",
-    "check:images": "node tools/check-images.mjs",
-    "stubs": "node tools/make-stubs.mjs"
-  }
+  "description": "Arifa H. homepage demo by Sorix.Co. Static HTML, CSS and vanilla JS.",
+  "scripts": { "dev": "node serve.mjs" }
 }
