@@ -1,0 +1,102 @@
+{
+  "name": "Arifa H",
+  "headline": "Human Resources Management Professional | Transformation Life Coach | UAE Labour Law Consultant | Fractional HR",
+  "showCurrentEmployer": false,
+  "about": [
+    "I'm a Certified Human Resources Management Professional with expertise across HR operations, employee relations, UAE Labour Laws, recruitment, payroll, compliance, and performance management. I have led HR functions across diverse industries including financial services, IT, trading (retail), electrical & mechanical (retail, projects, and contracting), education, and beauty/wellness supporting multi-country teams and aligning people strategies with organizational goals.",
+    "What sets me apart is my ability to combine strategic HR partnering with a people-first approach. I've successfully implemented HR systems, developed policies, and led organizational change initiatives, while ensuring compliance and fostering engagement across diverse workforces.",
+    "Alongside my HR career, I am also a Certified Transformation Life Coach. This allows me to bring empathy, coaching, and development into my HR practice helping employees and leaders alike unlock their strengths, navigate challenges, and perform at their best.",
+    "I'm passionate about shaping positive workplace cultures, aligning people strategies with business growth, and creating meaningful employee experiences that drive retention and performance."
+  ],
+  "expertise": ["HR Strategy", "Employee Relations", "UAE Labour Law", "Talent Acquisition", "HR Operations", "Compliance", "People Development", "Payroll", "Performance Management"],
+  "topSkills": ["Employee Relations", "Labor and Employment Law", "HR Policies", "HR Management", "HR Business Partnering"],
+  "roles": [
+    {
+      "id": "see", "year": 2026, "dates": "Jun 2026 – Present", "title": "Senior HR (Operations & Talent Acquisition Lead)",
+      "org": "SEE Engineering", "orgHidden": true, "type": "Full-time · On-site", "place": "Dubai, UAE", "industries": [],
+      "desc": null
+    },
+    {
+      "id": "rrifz", "year": 2025, "dates": "Dec 2025 – Present", "title": "Transformation Life Coach",
+      "org": "RRIFZ Transformation Life Coaching", "type": "", "place": "", "industries": [],
+      "desc": null
+    },
+    {
+      "id": "freelance", "year": 2023, "dates": "Jan 2023 – Present", "title": "Human Resources Consultant",
+      "org": "Freelance", "type": "Freelance · Remote", "place": "Dubai, UAE", "industries": [],
+      "desc": null
+    },
+    {
+      "id": "zarvista", "year": 2023, "dates": "Aug 2023 – Jan 2026", "title": "Human Resources Manager",
+      "org": "Zarvista Capital Markets", "type": "Full-time · On-site", "place": "Dubai, UAE",
+      "industries": ["Financial Services"],
+      "sub": [
+        { "title": "Human Resources Consultant", "dates": "Nov 2025 – Jan 2026 · Remote" },
+        { "title": "Human Resources Manager", "dates": "Aug 2023 – Oct 2025 · On-site" }
+      ],
+      "desc": "Lead end-to-end HR operations and office administration across multi-jurisdictional offices. Manage the full employee lifecycle for international teams, from recruitment to exit, while ensuring compliance with UAE Labor Law and global standards. Designed and implemented HR policies, spearheaded a company-wide HRMS rollout, and automated payroll and leave processes. Lead a team of HR professionals across multiple locations, enhancing operational efficiency and employee engagement by implementing data-driven strategies and performance metrics. Partner with senior management on labor law, compliance, and employee relations to mitigate risks and strengthen organizational culture. Drive employee engagement, retention, and performance initiatives, and support workforce planning and organizational restructuring during multi-country expansion. Administer employee benefits, including health insurance policies, to ensure compliance and satisfaction."
+    },
+    {
+      "id": "citygold", "year": 2024, "dates": "Dec 2024 – Sep 2025", "title": "Fractional HR Manager",
+      "org": "City Gold Global", "type": "Part-time · Hybrid", "place": "Dubai, UAE", "industries": ["Gold & Diamonds Trading"],
+      "desc": "Established and lead the HR function for the company's first retail showroom in Dubai, overseeing recruitment, onboarding, payroll, leave, and employee documentation. Built HR processes from the ground up, including policies, attendance, and leave management systems to ensure compliance and operational efficiency. Provide guidance on HR best practices and employee relations to foster a positive and productive work environment."
+    },
+    {
+      "id": "dhf", "year": 2024, "dates": "Jan 2024 – Aug 2024", "title": "Fractional HR Manager",
+      "org": "DHF Management DMCC", "type": "Part-time · Hybrid", "place": "Dubai, UAE", "industries": ["IT Services"],
+      "desc": "Managed HR operations and office administration for the IT division, overseeing the full employee lifecycle, leave management, contracts, visas, and compliance. Handled onboarding and exit formalities with structured, compliant processes. Provided employee relations support and conflict resolution to maintain a positive work environment. Implemented HR policies and documentation to enhance operational efficiency."
+    },
+    {
+      "id": "safeline", "year": 2020, "dates": "Jul 2020 – Nov 2022", "title": "Group Senior HR Executive",
+      "org": "Safe Line Group of Companies", "type": "Full-time · On-site", "place": "Dubai, UAE", "industries": ["Electrical & Mechanical"],
+      "desc": "Managed HR operations for 400+ employees across multiple business units, covering recruitment, payroll, compliance, and employee relations. Led full-cycle talent acquisition, onboarding, and induction processes while ensuring adherence to UAE labor law. Oversaw payroll, leave management, EOSB, and compensation and benefits administration. Introduced an Employee Happiness Survey and engagement initiatives to strengthen workplace culture. Provided employee counseling, conflict resolution, and HR advisory support to management."
+    },
+    {
+      "id": "noura", "year": 2019, "dates": "Apr 2019 – Sep 2019", "title": "Group HR Recruiter",
+      "org": "Noura Group", "type": "Full-time · On-site", "place": "United Arab Emirates", "industries": ["Education", "Beauty & Wellness"],
+      "desc": "Managed full-cycle recruitment across diverse business units, ensuring timely hiring and a positive candidate experience. Prepared tailored job descriptions, coordinated with hiring managers, and conducted interviews. Oversaw job postings on multiple platforms, maintained recruitment trackers and staffing reports, and streamlined onboarding through timely offer letters and candidate communication."
+    },
+    {
+      "id": "alphabet", "year": 2011, "dates": "Sep 2011 – Dec 2011", "title": "Administrator",
+      "org": "Alphabet Translation", "type": "Full-time · On-site", "place": "Abu Dhabi, UAE", "industries": ["Translation Services"],
+      "desc": "Oversaw daily administrative operations, ensuring smooth workflow and team coordination. Managed databases, documentation, and financial processes including quotations, purchase orders, and invoices. Supported leadership with scheduling and calendar management, while contributing to marketing initiatives through website content updates. Maintained efficient internal communication to strengthen overall operational performance."
+    }
+  ],
+  "education": [
+    { "school": "University of Calicut, Abu Dhabi", "what": "Bachelor's degree, Business Administration and Management, General", "years": "2008 – 2011", "score": "TPA 74%, HRM 82%" },
+    { "school": "Indian Islahi School, Abu Dhabi", "what": "Higher Secondary, Science and Mathematics", "years": "2006 – 2008", "score": "81.4%" },
+    { "school": "Al Noor Indian Islamic School, Abu Dhabi", "what": "High School", "years": "1996 – 2006", "score": "86.2%" }
+  ],
+  "certs": [
+    { "t": "Certified Transformation Life Coach", "by": "Transformation Academy", "d": "Oct 2024", "cat": "Coaching", "hl": true },
+    { "t": "Certified Human Resources Professional", "by": "American Certification Institute (ACI) – USA (Middle East)", "d": "Aug 2019", "cat": "HR", "hl": true },
+    { "t": "Change Management for HR in the Wake of AI", "by": "LinkedIn", "d": "Sep 2025", "cat": "AI & Change" },
+    { "t": "Generative AI in HR", "by": "LinkedIn", "d": "Sep 2025", "cat": "AI & Change" },
+    { "t": "Coaching Skills for Leaders and Managers", "by": "LinkedIn", "d": "Jan 2024", "cat": "Coaching" },
+    { "t": "Learning LinkedIn Recruiter", "by": "LinkedIn", "d": "Dec 2022", "cat": "Recruitment" },
+    { "t": "Human Resources: Running Company Onboarding", "by": "LinkedIn", "d": "Sep 2020", "cat": "HR" },
+    { "t": "The Human Resources Hero", "by": "LinkedIn", "d": "Jul 2020", "cat": "HR" },
+    { "t": "Creating a Compelling Job Description", "by": "LinkedIn", "d": "Jul 2020", "cat": "Recruitment" },
+    { "t": "Employer Branding to Attract Talent", "by": "LinkedIn", "d": "Jun 2020", "cat": "Recruitment" },
+    { "t": "Performance-Based Hiring", "by": "LinkedIn", "d": "Jun 2020", "cat": "Recruitment" },
+    { "t": "Strategic Thinking", "by": "LinkedIn", "d": "Jun 2020", "cat": "HR" },
+    { "t": "Talent Sourcing", "by": "LinkedIn", "d": "Jun 2020", "cat": "Recruitment" },
+    { "t": "Human Resources: Leadership and Strategic Impact", "by": "LinkedIn", "d": "May 2020", "cat": "HR" },
+    { "t": "People Analytics", "by": "LinkedIn", "d": "Apr 2020", "cat": "HR" },
+    { "t": "Microsoft Office", "by": "Galaxy Computer Education & Training Institute", "d": "Jun 2008", "cat": "Software" },
+    { "t": "AutoCAD 2D & 3D", "by": "Galaxy Computer Education & Training Institute", "d": "Aug 2008", "cat": "Software" }
+  ],
+  "languages": [
+    { "name": "Malayalam", "level": "Native or bilingual", "n": 5 },
+    { "name": "English", "level": "Full professional", "n": 4 },
+    { "name": "Hindi", "level": "Full professional", "n": 4 },
+    { "name": "Arabic", "level": "Elementary", "n": 1 }
+  ],
+  "award": { "title": "Special Recognition Award", "by": "Safe Line Group of Companies", "d": "January 2022" },
+  "volunteering": { "causes": ["Children", "Human Rights"], "where": "Dubai · On-site" },
+  "values": [
+    { "t": "Fairness first", "p": "Everyone deserves to be treated with fairness and respect." },
+    { "t": "Clarity over jargon", "p": "Plain language, so you know where you stand." },
+    { "t": "People before paperwork", "p": "Policies serve people, never the other way round." }
+  ]
+}

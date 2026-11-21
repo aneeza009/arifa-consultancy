@@ -1,0 +1,94 @@
+{
+  "brand": {
+    "name": "RRIFZ",
+    "lockup": "RRIFZ — Transformation Life Coaching by Arifa",
+    "tagline": "The HR insider who works for your side of the desk.",
+    "taglineAlt": "Clarity for your career. Confidence for your life.",
+    "ribbon": "Demo website by Sorix.Co — content is sample and for review."
+  },
+  "contact": {
+    "email": "consulting@rrifz.com",
+    "location": "Dubai, UAE",
+    "linkedin": "https://www.linkedin.com/in/arifa-h",
+    "whatsapp": null
+  },
+  "nav": [
+    { "label": "Coaching", "href": "coaching.html" },
+    { "label": "HR Consulting", "href": "hr-consulting.html" },
+    { "label": "Know Your Rights", "href": "labour-law.html" },
+    { "label": "Free Tools", "href": "tools.html" },
+    { "label": "Journal", "href": "journal.html" },
+    { "label": "About", "href": "about.html" }
+  ],
+  "cta": { "label": "Book a free 20-minute clarity call", "short": "Book a free call", "href": "book.html" },
+  "actionBar": {
+    "default": { "text": "Not sure where to start?", "label": "Book a free 20-minute clarity call", "href": "book.html" },
+    "home": { "text": "Twenty minutes. No pressure.", "label": "Book a free clarity call", "href": "book.html" },
+    "about": { "text": "Like what you read?", "label": "Book a free clarity call", "href": "book.html" },
+    "coaching": { "text": "Ready to talk it through?", "label": "Book a free clarity call", "href": "book.html" },
+    "hr-consulting": { "text": "Need HR support?", "label": "Book a 20-minute HR needs call", "href": "book.html" },
+    "labour-law": { "text": "Not sure where you stand?", "label": "Open the Rights Navigator", "href": "tools.html#navigator" },
+    "tools": { "text": "Want to talk through your result?", "label": "Book a free clarity call", "href": "book.html" },
+    "journal": { "text": "A two-minute reflection:", "label": "Take the Wheel of Life quiz", "href": "tools.html#wheel" },
+    "post": { "text": "A two-minute reflection:", "label": "Take the Wheel of Life quiz", "href": "tools.html#wheel" }
+  },
+  "trust": [
+    { "text": "Certified HR Professional" },
+    { "text": "Certified Transformation Life Coach" },
+    { "count": 9, "text": "roles across 6+ industries" },
+    { "text": "UAE Labour Law practitioner" },
+    { "text": "Special Recognition Award, Safe Line Group (Jan 2022)" }
+  ],
+  "doors": [
+    {
+      "n": "01", "title": "Coaching", "href": "coaching.html", "cta": "Explore coaching",
+      "promise": "When you feel stuck between who you are and what your life asks of you.",
+      "img": "IMG-PPL-02"
+    },
+    {
+      "n": "02", "title": "HR Consulting", "href": "hr-consulting.html", "cta": "See HR support",
+      "promise": "Clear, compliant people practices for growing UAE businesses.",
+      "img": "IMG-OFFICE-03"
+    },
+    {
+      "n": "03", "title": "Know Your Rights", "href": "labour-law.html", "cta": "Open the Rights Hub",
+      "promise": "Plain-English guidance on UAE labour law, with calculators you can use tonight.",
+      "img": "IMG-DOC-02"
+    }
+  ],
+  "sorter": [
+    { "label": "find clarity in my life or career", "href": "coaching.html" },
+    { "label": "get HR help for my business", "href": "hr-consulting.html" },
+    { "label": "know my rights at work", "href": "labour-law.html" }
+  ],
+  "pillars": [
+    {
+      "id": "soul", "name": "Soul", "img": "IMG-BOT-01",
+      "line": "Feeling connected to what matters most.",
+      "summary": "Meaning and direction: whether your days feel like they belong to you.",
+      "asks": ["I feel connected to what matters most to me.", "I make time for the things that give my life meaning.", "I feel at peace with the direction my life is taking."]
+    },
+    {
+      "id": "mind", "name": "Mind", "img": "IMG-BOT-02",
+      "line": "Handling pressure and staying curious.",
+      "summary": "Pressure and curiosity: how you switch off, cope and keep learning.",
+      "asks": ["I can switch off from work thoughts in the evening.", "I handle pressure without feeling constantly overwhelmed.", "I regularly learn or think about something that excites me."]
+    },
+    {
+      "id": "body", "name": "Body", "img": "IMG-BOT-03",
+      "line": "Rest, movement and energy.",
+      "summary": "Rest and energy: the foundation everything else is built on.",
+      "asks": ["I get enough rest most weeks.", "I move my body in ways I enjoy.", "I eat and recover in a way that supports my energy."]
+    },
+    {
+      "id": "career", "name": "Career", "img": "IMG-OFFICE-01",
+      "line": "Work that fits and treats you fairly.",
+      "summary": "Strengths and fairness: whether your work uses you well and treats you well.",
+      "asks": ["My work uses my strengths.", "I understand my rights and feel treated fairly at work.", "I can see a next step in my career that excites me."]
+    }
+  ],
+  "industries": ["Financial services", "IT services", "Gold & diamonds trading", "Electrical & mechanical", "Education", "Beauty & wellness", "Translation services"],
+  "disclaimerShort": "RRIFZ content is general information and coaching, not legal advice, therapy or medical advice. For legal decisions, consult a licensed UAE legal professional or contact MOHRE directly.",
+  "calcDisclaimer": "Estimate only, based on general information. Your contract and official sources decide. Not legal advice.",
+  "lastChecked": { "verified": "21 Nov 2026", "pending": "[date to be confirmed by Arifa]" }
+}

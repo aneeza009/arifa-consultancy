@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en-GB" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home | RRIFZ — Arifa H, HR &amp; Life Coach in Dubai</title>
+  <meta name="description" content="Certified HR professional and Transformation Life Coach in Dubai, helping people understand their rights at work and rebuild their direction.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#2A3837">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/CormorantGaramond.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/CormorantGaramond-italic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/Jost.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/Allura.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="modulepreload" href="js/main.js"><link rel="modulepreload" href="js/shell/shell.js"><link rel="modulepreload" href="js/pages/home.js">
+  <link rel="modulepreload" href="js/core/dom.js"><link rel="modulepreload" href="js/core/data.js"><link rel="modulepreload" href="js/core/img.js">
+  <link rel="modulepreload" href="js/components/venn.js"><link rel="modulepreload" href="js/components/slider.js"><link rel="modulepreload" href="js/lib/gratuity.js">
+  <link rel="preload" href="data/site.json" as="fetch" crossorigin><link rel="preload" href="data/images.json" as="fetch" crossorigin>
+  <link rel="preload" as="image" fetchpriority="high"
+    imagesrcset="https://images.unsplash.com/photo-1531303511320-729cbf66254f?auto=format&fit=crop&w=800&h=1000&q=55 800w, https://images.unsplash.com/photo-1531303511320-729cbf66254f?auto=format&fit=crop&w=1400&h=900&q=55 1400w"
+    imagesizes="100vw">
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/home.css">
+  <script>
+    (function () {
+      var d = document.documentElement; d.classList.remove('no-js'); d.classList.add('js');
+      try {
+        var w = sessionStorage.getItem('wipe');
+        if (w) { sessionStorage.removeItem('wipe'); var o = JSON.parse(w); d.style.setProperty('--wx', o.x + 'px'); d.style.setProperty('--wy', o.y + 'px'); d.style.setProperty('--wipe', o.c); d.classList.add('wipe-in'); }
+        else if (!sessionStorage.getItem('preloaded') && !matchMedia('(prefers-reduced-motion: reduce)').matches) d.classList.add('preloading');
+      } catch (e) {}
+      setTimeout(function () { d.classList.remove('preloading'); d.classList.remove('wipe-in'); d.classList.add('is-ready'); }, 5000); // safety net if JS fails
+    })();
+  </script>
+  <script type="module" src="js/main.js"></script>
+</head>
+<body data-page="home" data-module>
+  <a class="skip" href="#main">Skip to content</a>
+  <div class="preloader" id="preloader" aria-hidden="true"></div>
+  <div class="wipe" aria-hidden="true"></div>
+  <header id="site-header"></header>
+
+  <main id="main">
+    <!-- 1. HERO -->
+    <section class="hero" aria-labelledby="hero-title" data-venn-area>
+      <div class="hero__bg" aria-hidden="true">
+        <span class="photo photo--deep photo--flat" style="--ar:auto;height:100%">
+          <img src="https://images.unsplash.com/photo-1531303511320-729cbf66254f?auto=format&fit=crop&w=1400&h=900&q=55"
+               srcset="https://images.unsplash.com/photo-1531303511320-729cbf66254f?auto=format&fit=crop&w=800&h=1000&q=55 800w, https://images.unsplash.com/photo-1531303511320-729cbf66254f?auto=format&fit=crop&w=1400&h=900&q=55 1400w"
+               sizes="100vw" width="1400" height="900" alt="" fetchpriority="high" decoding="async"
+               onerror="this.onerror=null;this.closest('.photo').classList.add('is-broken');this.remove()">
+        </span>
+      </div>
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow" data-intro>RRIFZ · Transformation Life Coaching by Arifa</p>
+          <h1 class="display" id="hero-title" data-intro="slide" style="--d:1">You are more than your <em>job title.</em></h1>
+          <p class="lead" data-intro style="--d:2">Certified HR professional. Transformation Life Coach. Based in Dubai, working with people who want clarity, fairness and a life that fits.</p>
+          <div class="btn-row hero__cta" data-intro style="--d:3">
+            <a class="btn" data-magnetic href="book.html">Book a free clarity call <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+            <a class="btn btn--ghost" data-magnetic href="tools.html#wheel">Take the Wheel of Life quiz</a>
+          </div>
+          <div class="sorter" data-intro style="--d:4">
+            <p class="label">I'm here to…</p>
+            <ul id="sorter" class="sorter__list"></ul>
+          </div>
+          <div data-intro style="--d:5"><span data-timechip></span></div>
+        </div>
+        <div class="hero__art" data-intro style="--d:2">
+          <div id="hero-venn" class="venn venn-intro"></div>
+          <p class="venn__cap" id="hero-cap" aria-live="polite"></p>
+          <p class="hero__note"><span class="needs">Portrait · [NEEDS ARIFA]</span></p>
+        </div>
+      </div>
+      <a class="hero__scroll" href="#trust" aria-label="Scroll to content"><span></span></a>
+    </section>
+
+    <!-- 2. TRUST STRIP -->
+    <section class="trust" id="trust" aria-label="At a glance">
+      <div class="container"><ul class="trust__list" id="trust-list"></ul></div>
+    </section>
+
+    <!-- 3. THREE DOORS -->
+    <section class="sec sec--linen" id="doors" aria-labelledby="doors-title">
+      <div class="container">
+        <div class="sec-head" data-reveal>
+          <p class="eyebrow">Three doors</p>
+          <h2 class="h2" id="doors-title">Which door is <em>yours?</em></h2>
+          <p class="muted">One person, three ways in. Pick the one that matches why you are here today.</p>
+        </div>
+        <div class="stack" id="doors-stack"></div>
+      </div>
+    </section>
+
+    <!-- 4. FOUR CIRCLES -->
+    <section class="sec sec--dark framework" id="framework" aria-labelledby="fw-title">
+      <div class="container">
+        <div class="sec-head" data-reveal>
+          <p class="eyebrow">The Four Circles</p>
+          <h2 class="h2" id="fw-title">Four conversations, <em>one you.</em></h2>
+          <p class="lead muted">Your life is not one problem. It's four conversations happening at once — Soul, Mind, Body and Career. Real change starts when they stop pulling against each other.</p>
+        </div>
+        <div class="fw__grid">
+          <div class="fw__venn" id="fw-venn-wrap">
+            <div id="fw-venn" class="venn"></div>
+            <p class="venn__cap" id="fw-cap" aria-live="polite">Select a circle to explore it.</p>
+          </div>
+          <div class="fw__panel" id="fw-panel" aria-live="polite"></div>
+        </div>
+        <div class="fw__cta" data-reveal>
+          <a class="btn" data-magnetic href="tools.html#wheel">Take the Wheel of Life quiz</a>
+          <p class="muted">Twelve quick questions. Your answers stay in your browser.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. WHY AN HR INSIDER -->
+    <section class="sec sec--ivory why" id="why" aria-labelledby="why-title">
+      <div class="container why__grid">
+        <div class="why__text" data-reveal>
+          <p class="eyebrow">Why an HR insider</p>
+          <h2 class="h2" id="why-title">I know how the other side <em>thinks.</em></h2>
+          <p class="lead">Most coaches have never sat in the room where decisions about your job are made. I have. I've run HR across financial services, IT, retail, contracting, education and wellness — so when I coach you or advise your business, I know how the other side thinks.</p>
+          <p class="why__sig script" aria-hidden="true">Arifa</p>
+          <a class="link-arrow" href="about.html">Read my story <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+        </div>
+        <figure class="why__photo" data-reveal="right">
+          <span class="photo photo--soft" data-photo="IMG-DXB-02" data-w="1000" data-h="1100" data-sizes="(min-width: 900px) 45vw, 100vw" style="--ar:1000/1100"></span>
+          <figcaption class="why__badge"><span class="eyebrow">Based in Dubai</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 6. KNOW YOUR RIGHTS, TONIGHT -->
+    <section class="sec sec--linen rights" id="rights" aria-labelledby="rights-title">
+      <div class="container">
+        <div class="sec-head" data-reveal>
+          <p class="eyebrow">Know your rights, tonight</p>
+          <h2 class="h2" id="rights-title">Plain English. <em>Real numbers.</em></h2>
+          <p class="muted">Try the gratuity estimator, then read the guides behind it. Every guide shows its own "last checked" tag.</p>
+        </div>
+        <div class="rights__grid">
+          <form class="calc" id="mini-calc" data-reveal novalidate aria-labelledby="calc-title">
+            <div class="calc__head"><h3 class="h3" id="calc-title">Gratuity estimator</h3><span class="tag">Quick version</span></div>
+            <div class="calc__fields">
+              <label>Monthly basic wage (AED)<input id="calc-basic" type="number" inputmode="decimal" min="0" step="100" value="8000"></label>
+              <label>Years of service<input id="calc-years" type="number" inputmode="decimal" min="0" max="60" step="0.5" value="6"></label>
+            </div>
+            <div class="calc__out" id="calc-out" aria-live="polite"></div>
+            <div class="calc__bar" aria-hidden="true"><span id="calc-bar"></span></div>
+            <p class="calc__cap muted" id="calc-cap"></p>
+            <p class="disclaimer">Estimate only, based on general information. Your contract and official sources decide. Not legal advice.<br>
+              <span class="tag">Formula to be confirmed by Arifa</span> <span class="tag">Last checked: [date to be confirmed by Arifa]</span></p>
+            <a class="link-arrow" href="tools.html#gratuity">All five calculators <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+          </form>
+          <div class="rights__cards" id="rights-cards"></div>
+        </div>
+        <p class="disclaimer rights__note" data-reveal>General information, not legal advice. Rules change; always confirm on u.ae or with MOHRE.</p>
+      </div>
+    </section>
+
+    <!-- 7. QUIZ BANNER -->
+    <section class="quizband" aria-labelledby="qb-title">
+      <div class="cover-bg" aria-hidden="true"><span class="photo photo--deep photo--flat" data-photo="IMG-DES-02" data-w="1600" data-h="800" data-sizes="100vw" style="--ar:auto;height:100%"></span></div>
+      <div class="container quizband__grid">
+        <div data-reveal>
+          <p class="eyebrow">Free tool</p>
+          <h2 class="h2" id="qb-title">The two-minute <em>Wheel of Life</em> check.</h2>
+          <p class="lead">Twelve questions across Soul, Mind, Body and Career. See where your energy is, and where it is leaking.</p>
+          <div class="btn-row"><a class="btn" data-magnetic href="tools.html#wheel">Take the quiz</a></div>
+          <p class="disclaimer" style="margin-top:22px;max-width:48ch">This quiz is a reflection tool, not a diagnosis.</p>
+        </div>
+        <div class="radar" data-reveal="fade" aria-hidden="true">
+          <svg viewBox="-150 -125 300 250">
+            <g fill="none" stroke="rgba(217,185,139,.35)">
+              <polygon points="0,-100 100,0 0,100 -100,0"/><polygon points="0,-66 66,0 0,66 -66,0"/><polygon points="0,-33 33,0 0,33 -33,0"/>
+              <line x1="0" y1="-100" x2="0" y2="100"/><line x1="-100" y1="0" x2="100" y2="0"/>
+            </g>
+            <polygon class="radar__shape" points="0,-78 54,0 0,40 -86,0" fill="rgba(224,161,132,.35)" stroke="#E0A184" stroke-width="2"/>
+            <g class="radar__dots" fill="#D9B98B"><circle cx="0" cy="-78" r="4"/><circle cx="54" cy="0" r="4"/><circle cx="0" cy="40" r="4"/><circle cx="-86" cy="0" r="4"/></g>
+            <g font-size="9" letter-spacing="2" fill="#E4C9A8" text-anchor="middle" font-family="Jost, sans-serif">
+              <text x="0" y="-108">SOUL</text><text x="112" y="3">MIND</text><text x="0" y="116">BODY</text><text x="-110" y="3">CAREER</text>
+            </g>
+          </svg>
+          <p class="radar__cap muted">Illustration only — not a real result.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. RECOMMENDATIONS -->
+    <section class="sec sec--dark reading" id="voices" aria-labelledby="voices-title">
+      <div class="reading__venn" aria-hidden="true">
+        <svg viewBox="-260 -200 520 410"><g fill-opacity=".5"><circle cx="-70" cy="-70" r="118" fill="#C78E7C"/><circle cx="70" cy="-70" r="118" fill="#A9A268"/><circle cx="-70" cy="70" r="118" fill="#5F9A92"/><circle cx="70" cy="70" r="118" fill="#8E8A99"/></g></svg>
+      </div>
+      <div class="container">
+        <div class="sec-head" data-reveal>
+          <p class="eyebrow">In their words</p>
+          <h2 class="h2" id="voices-title">What colleagues <em>say.</em></h2>
+        </div>
+        <div class="slider" id="voices-slider" data-reveal="fade"><div class="slider__stage" id="voices-stage"></div></div>
+        <p class="reading__note"><span class="needs">Permission pending</span> <span class="muted">These are real LinkedIn recommendations, shown for review. Names and quotes need Arifa's permission before launch.</span></p>
+      </div>
+    </section>
+
+    <!-- 9. INDUSTRIES -->
+    <section class="sec sec--linen industries" aria-labelledby="ind-title">
+      <div class="container sec-head center" data-reveal>
+        <p class="eyebrow" style="justify-content:center">Industries led</p>
+        <h2 class="h3" id="ind-title" style="margin-top:16px">HR across seven worlds of work.</h2>
+      </div>
+      <div class="marquee" id="industries" role="list" aria-label="Industries"></div>
+    </section>
+
+    <!-- 10. JOURNAL -->
+    <section class="sec sec--ivory" id="journal" aria-labelledby="jr-title">
+      <div class="container">
+        <div class="sec-head head-row" data-reveal>
+          <div><p class="eyebrow">From the journal</p><h2 class="h2" id="jr-title">Rights, careers and <em>clarity.</em></h2></div>
+          <a class="link-arrow" href="journal.html">All articles <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12h16M14 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="cards" id="journal-cards"></div>
+      </div>
+    </section>
+
+    <!-- 11. FINAL CTA -->
+    <section class="cta" id="final-cta" aria-labelledby="cta-title">
+      <div class="cover-bg" aria-hidden="true"><span class="photo photo--deep photo--flat" data-photo="IMG-DES-03" data-w="1600" data-h="700" data-sizes="100vw" style="--ar:auto;height:100%"></span></div>
+      <div class="container cta__inner" data-reveal>
+        <h2 class="display" id="cta-title">Not sure where to start?</h2>
+        <p class="lead">Twenty minutes. No pressure. Just <em>clarity.</em></p>
+        <div class="btn-row" style="justify-content:center"><a class="btn" data-magnetic href="book.html">Book a free 20-minute clarity call</a><a class="btn btn--ghost" data-magnetic href="tools.html#wheel">Take the Wheel of Life quiz</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+</body>
+</html>

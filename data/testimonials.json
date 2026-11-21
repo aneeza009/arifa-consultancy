@@ -1,0 +1,37 @@
+[
+  {
+    "id": "jean", "name": "Jean Nahas",
+    "role": "C-Level Executive | Forex & CFDs | Financial Services | Board Member",
+    "date": "Sep 15, 2025", "rel": "Managed Arifa directly",
+    "text": ["I strongly recommend Arifa, a professional, approachable, and knowledgeable HR leader with expertise beyond HR into corporate administration. She consistently goes above her role to support management and teams, adding real value to any organization."],
+    "short": true
+  },
+  {
+    "id": "hitarrth", "name": "Hitarrth S Trivedi",
+    "role": "Strategy & AI Transformation Professional | Agentic AI | AI Automation | Change Management",
+    "date": "Dec 27, 2021", "rel": "LinkedIn recommendation",
+    "text": ["Arifa is an HR professional with a human touch, her strength lies in connecting with people and engaging them as whole. she thrives for employee centricity which makes her different. Technical know how of the HR processes makes her profile stronger.", "It was a great learning experience to work with Arifa.", "I wish her luck for future endeavours!"],
+    "short": true
+  },
+  {
+    "id": "gulneet", "name": "Gulneet Chadha",
+    "role": "HR Strategist & Executive Headhunter | LinkedIn Personal Branding Strategist | Licensed Hypnotherapist | EMDR | Mental Health Author & Keynote Speaker | Corporate Wellness Consultant",
+    "date": "Dec 18, 2021", "rel": "Gulneet was Arifa's mentor",
+    "text": ["Arifa is an excellent HR professional with a perfect blend of knowledge and compassion. And that's exactly we need in every HR today."],
+    "short": true
+  },
+  {
+    "id": "fyndia", "name": "Fyndia Papadopoulou",
+    "role": "FCA, BFP, BSc",
+    "date": "Sep 16, 2025", "rel": "Worked with Arifa on the same team",
+    "text": ["I had the opportunity and honour to work closely with Arifa, our HR and Office Manager. Throughout our collaboration, I witnessed her strong professionalism and commitment. In her HR role, she managed her responsibilities diligently, ensuring smooth handling of employee matters, supporting recruitment processes, and maintaining a positive and well-organized work environment.", "Beyond her HR duties, Arifa was also a valuable support to the finance department. Whenever needed, she stepped in with a \"can-do\" mindset, approaching tasks with reliability and efficiency. Her proactive attitude and willingness to help made a real difference, particularly in cross-departmental collaboration.", "Arifa's dedication, adaptability, and supportive nature have been highly appreciated. She has proven to be an integral part of the team and will be valuable to any future opportunity she pursues.…"],
+    "truncated": true
+  },
+  {
+    "id": "wajid", "name": "AbduL Wajid",
+    "role": "Senior Manager – Corporate Sales | Go-To-Market Strategy | Enterprise Relationships",
+    "date": "Sep 2, 2025", "rel": "Arifa was his client (she attended his HR course)",
+    "text": ["I had the pleasure of having Ms Arifa as a participant in my HR course, and I was consistently impressed by her enthusiasm, professionalism, and strong commitment to learning. From the beginning, she demonstrated a genuine passion for human resources and a clear drive to grow in her field.", "Throughout the course, she was highly engaged, asked thoughtful questions, and consistently applied the concepts with real-world insight. Her ability to grasp complex HR topics and relate them to practical scenarios made her stand out among her peers.", "I have no doubt that Ms Arifa brings the same level of dedication and excellence to her role as an HR professional. She is truly an asset to any organization, and I'm confident she will continue to thrive and make a meaningful impact in the HR space.…"],
+    "truncated": true
+  }
+]
