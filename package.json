@@ -4,5 +4,5 @@
   "private": true,
   "type": "module",
   "description": "Arifa H portfolio website demo by Sorix.Co. Static HTML, CSS and vanilla JS.",
-  "scripts": { "dev": "node serve.mjs", "build": "node build.mjs" }
+  "scripts": { "dev": "node serve.mjs", "build:dist": "node build.mjs" }
 }

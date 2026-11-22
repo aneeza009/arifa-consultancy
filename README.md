@@ -5,7 +5,7 @@ Static HTML, CSS and vanilla JavaScript, built mobile first. No framework, no tr
 ```powershell
 cd code
 node serve.mjs      # development server on http://localhost:5173
-npm run build       # minified copy in dist/ (needs Node; esbuild is fetched by npx)
+npm run build:dist  # minified copy in dist/ (needs Node; esbuild is fetched by npx)
 ```
 
 ## Files
