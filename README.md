@@ -8,16 +8,26 @@ node serve.mjs      # development server on http://localhost:5173
 npm run build:dist  # minified copy in dist/ (needs Node; esbuild is fetched by npx)
 ```
 
-## Files
+## Pages
 ```
-index.html      the whole site (hero, services, who I help, how it works, about, experience, FAQ, contact, booking modal)
-about.html      redirects to index.html#about
-book.html       redirects to index.html#contact
-css/            styles.css (tokens at the top), fonts.css (DM Serif Display + Manrope, self-hosted)
-js/main.js      header, menu, reveals, service details, FAQ, booking modal, recommendations switch
-assets/img/     Arifa's portrait (crop only), three section photos, OG image
-data/testimonials.json   her LinkedIn recommendations, NOT shown until approved (see below)
-_archive/       earlier designs
+index.html                  Home: everything on one page (hero, services, who I help, how it works, about, experience, FAQ, contact)
+about.html                  Story, career timeline, credentials, education, languages
+services.html               All five services in detail
+service-*.html              One page per service (hr-consulting, fractional-hr, labour-law, employee-relations, coaching)
+who-i-help.html             Individuals and businesses, plus a "which service is right for me" finder
+blog.html                   Coming soon (next phase): planned topics, no articles yet
+contact.html                Contact details, how booking works, FAQ
+book.html                   Redirects to contact.html
+```
+`index.html` is hand-written. The other pages are generated from it (shared header, footer and booking modal) by `npm run build:pages`. Edit `tools/build-pages.mjs` and re-run it to change them.
+
+## Other files
+```
+css/styles.css, css/fonts.css     styles (tokens at the top) and self-hosted fonts
+js/main.js                        header, menu, reveals, service details, FAQ, booking modal
+assets/img/                       photos (hero, section images, portrait crops, OG image)
+data/testimonials.json            LinkedIn recommendations, NOT shown until approved
+_archive/                         earlier designs
 ```
 
 ## Switching on the recommendations

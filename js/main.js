@@ -119,3 +119,12 @@ if (TESTIMONIALS_APPROVED) {
     $('#testimonials').hidden = false;
   }).catch(() => {});
 }
+
+/* Mark the current page in the navigation */
+(function markCurrent() {
+  const here = location.pathname.split('/').pop() || 'index.html';
+  $$('#nav a').forEach((a) => {
+    const href = a.getAttribute('href');
+    if (href === here || (/^service-/.test(here) && href === 'services.html')) a.setAttribute('aria-current', 'page');
+  });
+})();
