@@ -36,11 +36,11 @@ if ('IntersectionObserver' in window && !calm) {
   items.forEach((el) => io.observe(el));
 } else items.forEach((el) => el.classList.add('is-in'));
 
-/* Service cards: Explore Service expands details */
+/* Service cards: Explore Service expands the details (who, problem, outcome, what you get) */
 $$('[data-more]').forEach((b) => b.addEventListener('click', () => {
-  const panel = document.getElementById(b.getAttribute('aria-controls'));
-  const open = !panel.classList.contains('is-open');
-  panel.classList.toggle('is-open', open);
+  const card = b.closest('.svc');
+  const open = !card.classList.contains('is-open');
+  card.classList.toggle('is-open', open);
   b.setAttribute('aria-expanded', String(open));
   b.textContent = open ? 'Show Less' : 'Explore Service';
 }));
